@@ -1,3 +1,3 @@
-# googleスプレッドシートを簡易DBとして使う。
+# googleスプレッドシートを簡易DBとして使う。
 
 [DEMO](http://akifo.github.io/vue-spreadsheets/)

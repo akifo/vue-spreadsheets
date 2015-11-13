@@ -2,8 +2,6 @@
 
   'use strict';
 
-
-
   Vue.component('demo-grid', {
     template: '<table><tr v-for="station in data"><td v-for="info in station">{{info}}</td></tr></table>',
     props: {
@@ -34,10 +32,8 @@
         var self = this;
         var cells = data.feed.entry;
         _.map(cells, function(cell) {
-          console.log(cell);
           var rowObj = {};
           var rowCols = _.words(cell.content.$t,/[^,]+/g);
-          console.log(rowCols);
           _.map(rowCols, function(col) {
             var keyVal = _.words(col,/[^:]+/g);
             rowObj[keyVal[0]] = keyVal[1];
