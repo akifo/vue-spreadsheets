@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+  <meta charset="UTF-8">
+  <title>google スプレッドシートを簡易DBとして使う。</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div id="app">
+    <demo-grid :data="ranking_ken_1">
+    </demo-grid>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.8/vue.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

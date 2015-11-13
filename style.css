@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+table {
+
+}
+
+tr {
+  border-top: 1px solid #cdcdcd;
+  border-left: 1px solid #cdcdcd;
+}
+
+td {
+  border-bottom: 1px solid #cdcdcd;
+  border-right: 1px solid #cdcdcd;
+}
